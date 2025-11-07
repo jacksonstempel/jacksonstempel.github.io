@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing - Jackson Stempel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            line-height: 1.7;
+            color: #333;
+            background: #fff;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+        
+        header {
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2em;
+            font-weight: normal;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom 0.2s;
+        }
+        
+        .back-link:hover {
+            border-bottom: 1px solid #0066cc;
+        }
+        
+        .back-link::before {
+            content: "← ";
+            margin-right: 5px;
+        }
+        
+        .intro {
+            font-size: 1.05em;
+            color: #555;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        
+        .essay {
+            margin-bottom: 50px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .essay:last-child {
+            border-bottom: none;
+        }
+        
+        .essay h2 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        
+        .essay h2 a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.2s;
+        }
+        
+        .essay h2 a:hover {
+            border-bottom: 2px solid #0066cc;
+        }
+        
+        .essay-meta {
+            font-size: 0.9em;
+            color: #999;
+            margin-bottom: 15px;
+        }
+        
+        .essay-desc {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.85em;
+            color: #999;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px;
+            }
+            
+            h1 {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">Back to home</a>
+            <h1>Essays & Writing</h1>
+            <p class="intro">Personal explorations in science, philosophy, and the spaces between.</p>
+        </header>
+        
+        <div class="essay">
+            <h2><a href="phase-transition.html">The Great Phase Transition</a></h2>
+            <div class="essay-meta">November 2024</div>
+            <p class="essay-desc">
+                Reflections on the Fermi paradox, thermodynamic arguments for life's existence, 
+                and humanity's seemingly unique position at the dawn of cosmic expansion. 
+                Why does the universe appear metastable, waiting for intelligence to catalyze 
+                its inevitable phase transition from order to entropy?
+            </p>
+        </div>
+        
+        <!-- Add more essays here as you write them -->
+        
+        <footer>
+            Last updated November 2025
+        </footer>
+    </div>
+</body>
+</html>
